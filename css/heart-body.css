@@ -1,0 +1,68 @@
+#parent {
+    border: 1px solid #000;
+    width: 100%;
+    margin-left: auto;
+    margin-right: 0%;
+    color: black;
+    background-color: white;
+    font: Helvetica;
+    font-size: 12pt;
+}
+#parent1 {
+  border: 1px solid #000;
+  width: 100%;
+  margin-left: auto;
+  margin-right: 0%;
+  color: black;
+  background-color:black;
+  font: Helvetica;
+  font-size: 14pt;
+}
+
+#wrapper .child1{
+    float: left;
+    width: 70%;
+} 
+
+#wrapper .child2 {
+  float: right;
+    margin-left: 90%;
+    margin-top: 20%;
+}
+
+div.clear {
+    clear: both;
+}
+
+table.naked_table {
+  width: 100%;
+  margin-left: -20px;
+  border: none;
+  border-collapse: separate;
+  border-spacing: 40px 18px;
+}
+
+table.naked_table td.input_slider {
+  text-align: left;
+}
+
+.hd-slider-width {
+  width: 70%;
+}
+
+.hd-number-width {
+  width: 20%;
+}
+
+form.slider_input {
+  width: 120%;
+}
+
+label.before_slider {
+  
+  width: 100%;
+  padding-left: 0;
+  margin-left: 0;
+  padding-top: 5%;
+  text-align: right;
+}
